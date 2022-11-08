@@ -1,0 +1,27 @@
+.bg-primarys {
+  background:#FF7F00;
+  color: var(--white);
+  text-align: center;
+}
+.piep {
+  width: 100%;
+  background: #ff7f00;
+  margin: auto;
+  color: var(--white);  
+}
+.textopiep {
+  background: #ff7f00;
+  margin: auto;
+  color: var(--white);  
+}
+.footer-container {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  align-content: center;
+}
+.footer-container p {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 600;
+}
