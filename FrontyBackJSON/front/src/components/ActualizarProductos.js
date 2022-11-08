@@ -103,7 +103,7 @@ export default class ActualizarProductos extends Component {
                                 <div className="container p-2">
                                 <input type="text" className="form control" value={this.state._price} onChange={this.onChangePrice}/>
                                 </div>
-                                <h6> Descripcion: </h6>
+                                <h6> Descripción: </h6>
                                 <div className="container p-2">
                                 <input type="text" className="form control" value={this.state._description} onChange={this.onChangeDescription}/>
                                 </div>

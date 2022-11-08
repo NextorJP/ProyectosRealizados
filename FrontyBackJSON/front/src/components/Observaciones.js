@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class NotesList extends Component {
+export default class Observaciones extends Component {
     render() {
         return (
             <div>

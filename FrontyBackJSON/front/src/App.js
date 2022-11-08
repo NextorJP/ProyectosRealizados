@@ -5,14 +5,14 @@ import './App.css';
 
 import Navigation from './components/Navigation'
 import VentasRealizadas from './components/VentasRealizadas'
-import NotesList from './components/NotesList'
+import Observaciones from './components/Observaciones'
 import ActualizarProductos from './components/ActualizarProductos'
 function App() {
   return (
     <Router>
       <Navigation/>
       <div className="container p-4">
-        <Route path="/" exact component={NotesList} />  
+        <Route path="/" exact component={Observaciones} />  
         <Route path="/ventas" component={VentasRealizadas} />
         <Route path="/actualizar" component={ActualizarProductos} />
       </div>
