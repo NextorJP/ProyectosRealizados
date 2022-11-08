@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 
-export default class CreateCarta extends Component {
+export default class ActualizarProductos extends Component {
     state = {
         productos: [],
         name:'',
@@ -92,7 +92,7 @@ export default class CreateCarta extends Component {
             <div className="row">
                 <div className="col-md-4">
                     <div className="card card-body">
-                        <h3> Crear Nuevo Producto </h3>
+                        <h3> CRUD de Productos </h3>
                         <form onSubmit={this.onSubmit}>
                             <div className="form-group">
                                 <div className="container p-2">

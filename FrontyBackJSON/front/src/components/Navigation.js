@@ -15,7 +15,7 @@ export default class Navigation extends Component {
                                 <Link className="nav-link" to="/ventas">Ventas Realizadas</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/carta">Actualizar Productos</Link>
+                                <Link className="nav-link" to="/actualizar">Actualizar Productos</Link>
                             </li>
 
                         </ul>

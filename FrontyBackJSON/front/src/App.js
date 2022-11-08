@@ -6,7 +6,7 @@ import './App.css';
 import Navigation from './components/Navigation'
 import VentasRealizadas from './components/VentasRealizadas'
 import NotesList from './components/NotesList'
-import CreateCarta from './components/CreateCarta'
+import ActualizarProductos from './components/ActualizarProductos'
 function App() {
   return (
     <Router>
@@ -14,7 +14,7 @@ function App() {
       <div className="container p-4">
         <Route path="/" exact component={NotesList} />  
         <Route path="/ventas" component={VentasRealizadas} />
-        <Route path="/carta" component={CreateCarta} />
+        <Route path="/actualizar" component={ActualizarProductos} />
       </div>
     </Router>
   );
