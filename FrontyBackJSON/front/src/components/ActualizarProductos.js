@@ -9,7 +9,6 @@ export default class ActualizarProductos extends Component {
         _id:'',
         _price:'',
         _description:''
-        
     }
 
     async componentDidMount() {

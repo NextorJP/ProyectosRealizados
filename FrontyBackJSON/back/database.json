@@ -35,12 +35,6 @@
       "name": "Hamburguesa wrap de pollo o carne",
       "price": "8000",
       "description": "Wrap de 125g cada una 100% de res a la parrilla con salsa MIXTOS, una tajada de queso,lechuga picada, tomate,cebolla grille, papa ripio."
-    },
-    {
-      "name": "Patacón de Pollo",
-      "price": "10000",
-      "description": "Plátano verde, huevo",
-      "id": "GsOB-LR"
     }
   ]
 }
