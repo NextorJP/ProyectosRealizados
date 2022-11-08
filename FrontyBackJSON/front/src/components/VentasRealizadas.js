@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
 
-export default class createNote extends Component {
+export default class VentasRealizadas extends Component {
   render() {
     return (
-      <div>createNote</div>
+      <div>Lista de ventas realizadas</div>
     )
   }
 }
+
+
+

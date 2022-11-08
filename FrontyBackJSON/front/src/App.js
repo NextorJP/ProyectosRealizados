@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 import Navigation from './components/Navigation'
-import CreateNote from './components/VentasRealizadas'
+import VentasRealizadas from './components/VentasRealizadas'
 import NotesList from './components/NotesList'
 import CreateCarta from './components/CreateCarta'
 function App() {
@@ -12,9 +12,8 @@ function App() {
     <Router>
       <Navigation/>
       <div className="container p-4">
-        <Route path="/" exact component={NotesList} />
-        <Route path="/edit/:id" component={CreateNote} />
-        <Route path="/ventas" component={CreateNote} />
+        <Route path="/" exact component={NotesList} />  
+        <Route path="/ventas" component={VentasRealizadas} />
         <Route path="/carta" component={CreateCarta} />
       </div>
     </Router>
